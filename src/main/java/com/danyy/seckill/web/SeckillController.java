@@ -18,6 +18,17 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Date;
 import java.util.List;
 
+/**
+ GET/seckill/list          秒杀列表
+ GET/seckill/{id}/detail   秒杀详情页
+ GET/seckill/time/now      系统时间
+
+ POST/seckill/{id}/exposer   暴露秒杀
+ POST/seckill/{id}/{md5}/execution   执行秒杀
+
+ */
+
+
 @Controller // @Service @Componet
 @RequestMapping("/seckill") // url:/模块/资源/{id}/细分 /seckill/list
 public class SeckillController {
