@@ -142,8 +142,16 @@
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-test</artifactId>
-      <version>4.3.8.RELEASE</version>
+      <version>4.1.9.RELEASE</version>
     </dependency>
+
+    <!--集合的一些工具类-->
+    <dependency>
+      <groupId>commons-collections</groupId>
+      <artifactId>commons-collections</artifactId>
+      <version>3.2</version>
+    </dependency>
+
   </dependencies>
 
   <build>
